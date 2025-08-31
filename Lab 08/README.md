@@ -1,43 +1,42 @@
-📘 C++ OOP Tasks Project
+# 📘 C++ OOP Tasks Project  
 
-This project demonstrates key Object-Oriented Programming (OOP) concepts in C++, including compile-time polymorphism and operator overloading.
-Each task is written in its own header file (.h), and all tasks are executed in a single main.cpp.
+This project demonstrates **Object-Oriented Programming (OOP)** concepts in **C++**, including **compile-time polymorphism** and **operator overloading**.  
+Each task is separated into its own header file (`.h`) for modularity, while a single `main.cpp` file integrates and runs all tasks.  
 
-📂 File Structure
-Task1_Calculator.h   → Compile-time Polymorphism (Function Overloading)
-Task2_Complex.h      → Operator Overloading (+ for Complex Numbers)
-Task3_Distance.h     → Operator Overloading (== for Distance Equality)
-main.cpp             → Runs all tasks together
+---
 
-📌 Tasks Overview
-🔹 Task 1: Calculator (Compile-time Polymorphism)
+## 📂 Project Structure
+Task1_Calculator.h → Compile-time Polymorphism (Function Overloading)
+Task2_Complex.h → Operator Overloading (+ for Complex Numbers)
+Task3_Distance.h → Operator Overloading (== for Distance Equality)
+main.cpp → Executes all tasks
 
-Implements a Calculator class with overloaded add() functions.
 
-Supports integers, doubles, and different parameter counts.
 
-🔹 Task 2: Complex Numbers (Operator Overloading)
+---
 
-Implements a Complex class.
+## 📌 Tasks Overview
 
-Overloads the + operator to add two complex numbers.
+### 🔹 Task 1: Calculator (Compile-time Polymorphism)
+- Implements a `Calculator` class.  
+- Demonstrates **function overloading** with three `add()` functions.  
+- Supports integers, doubles, and different parameter counts.  
 
-Displays the result in standard complex form.
+### 🔹 Task 2: Complex Numbers (Operator Overloading)
+- Defines a `Complex` class.  
+- Overloads the **`+` operator** to add two complex numbers.  
+- Displays results in standard complex form (`a + bi`).  
 
-🔹 Task 3: Distance Equality (Operator Overloading)
+### 🔹 Task 3: Distance Equality (Operator Overloading)
+- Implements a `Distance` class with private members: **feet** and **inch**.  
+- Overloads the **`==` operator** to compare two distances.  
+- Displays whether the given distances are equal or not.  
 
-Implements a Distance class with feet and inch.
+---
 
-Overloads the == operator to check whether two distances are equal.
 
-🚀 How to Compile & Run
-Step 1: Compile
-g++ main.cpp -o tasks
+📊 Sample Output
 
-Step 2: Run
-./tasks
-
-📊 Example Output
 ========== Task 1: Calculator (Function Overloading) ==========
 Sum of 3 integers: 9
 Sum of 3 doubles: 10.5
@@ -54,13 +53,11 @@ Distance 2: 5 feet 8 inches
 Distance 3: 6 feet 2 inches
 Distance 1 and Distance 2 are equal.
 Distance 1 and Distance 3 are NOT equal.
-
 🎯 Learning Outcomes
+Understand compile-time polymorphism using function overloading.
 
-Understanding function overloading (Compile-time Polymorphism).
+Implement operator overloading (+ and ==) in C++.
 
-Implementing operator overloading (+, ==).
+Use constructors, classes, and modular programming with header files.
 
-Using classes, constructors, and modular code organization.
-
-Writing clean, maintainable, and modular C++ code with header files.
+Gain experience in clean project structuring for better maintainability.
