@@ -35,24 +35,7 @@ main.cpp → Executes all tasks
 ---
 
 
-📊 Sample Output
 
-========== Task 1: Calculator (Function Overloading) ==========
-Sum of 3 integers: 9
-Sum of 3 doubles: 10.5
-Sum of 4 integers: 10
-
-========== Task 2: Complex Numbers (Operator Overloading) ==========
-First Complex: 2 + 3i
-Second Complex: 4 + 5i
-Sum: 6 + 8i
-
-========== Task 3: Distance Equality (Operator Overloading) ==========
-Distance 1: 5 feet 8 inches
-Distance 2: 5 feet 8 inches
-Distance 3: 6 feet 2 inches
-Distance 1 and Distance 2 are equal.
-Distance 1 and Distance 3 are NOT equal.
 🎯 Learning Outcomes
 Understand compile-time polymorphism using function overloading.
 
