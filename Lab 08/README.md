@@ -1,6 +1,7 @@
 📘 C++ OOP Tasks Project
 
-This project contains three C++ tasks demonstrating the concepts of compile-time polymorphism and operator overloading. Each task is separated into its own header file (.h) for modularity, and a single main.cpp file is used to run all tasks.
+This project demonstrates key Object-Oriented Programming (OOP) concepts in C++, including compile-time polymorphism and operator overloading.
+Each task is written in its own header file (.h), and all tasks are executed in a single main.cpp.
 
 📂 File Structure
 Task1_Calculator.h   → Compile-time Polymorphism (Function Overloading)
@@ -9,35 +10,50 @@ Task3_Distance.h     → Operator Overloading (== for Distance Equality)
 main.cpp             → Runs all tasks together
 
 📌 Tasks Overview
+🔹 Task 1: Calculator (Compile-time Polymorphism)
 
-Task 1: Calculator (Compile-time Polymorphism)
+Implements a Calculator class with overloaded add() functions.
 
-Demonstrates function overloading with multiple add() functions.
+Supports integers, doubles, and different parameter counts.
 
-Supports integers and doubles with different parameter counts.
-
-Task 2: Complex Numbers (Operator Overloading)
+🔹 Task 2: Complex Numbers (Operator Overloading)
 
 Implements a Complex class.
 
 Overloads the + operator to add two complex numbers.
 
-Task 3: Distance Equality (Operator Overloading)
+Displays the result in standard complex form.
 
-Defines a Distance class with feet and inch.
+🔹 Task 3: Distance Equality (Operator Overloading)
 
-Overloads the == operator to compare two distances.
+Implements a Distance class with feet and inch.
 
-🚀 How to Run
+Overloads the == operator to check whether two distances are equal.
 
-Compile the project:
-
+🚀 How to Compile & Run
+Step 1: Compile
 g++ main.cpp -o tasks
 
-
-Run the program:
-
+Step 2: Run
 ./tasks
+
+📊 Example Output
+========== Task 1: Calculator (Function Overloading) ==========
+Sum of 3 integers: 9
+Sum of 3 doubles: 10.5
+Sum of 4 integers: 10
+
+========== Task 2: Complex Numbers (Operator Overloading) ==========
+First Complex: 2 + 3i
+Second Complex: 4 + 5i
+Sum: 6 + 8i
+
+========== Task 3: Distance Equality (Operator Overloading) ==========
+Distance 1: 5 feet 8 inches
+Distance 2: 5 feet 8 inches
+Distance 3: 6 feet 2 inches
+Distance 1 and Distance 2 are equal.
+Distance 1 and Distance 3 are NOT equal.
 
 🎯 Learning Outcomes
 
@@ -45,4 +61,6 @@ Understanding function overloading (Compile-time Polymorphism).
 
 Implementing operator overloading (+, ==).
 
-Working with classes, constructors, and modular code structure.
+Using classes, constructors, and modular code organization.
+
+Writing clean, maintainable, and modular C++ code with header files.
