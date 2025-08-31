@@ -36,6 +36,7 @@ Total objects of class A created so far: 3
 
 === Task 2: Static Member Function ===
 Total objects created so far: 3
+<br>
 ✅ Learning Outcome
 How static data members are shared among objects.
 
