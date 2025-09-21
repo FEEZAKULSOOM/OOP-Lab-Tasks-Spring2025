@@ -50,17 +50,6 @@ Demonstrate virtual function usage with geometric shapes.
 
 ---
 
-## ✅ Task 3: Operator Overloading (`==` for Distance)
-
-### 🎯 Objective:
-Overload the `==` operator to compare two distances.
-
-### 🔹 Class Used:
-- **Distance**  
-  - Private members: `feet`, `inches`  
-  - Constructor to initialize values  
-  - Overloads `==` operator using a member function  
-  - `display()` function to print the distance
 
 ### 🔹 Main Function:
 - Creates multiple `Distance` objects  
