@@ -46,41 +46,10 @@ int main() {
 
 
 
-//                                             Task # 03
-
-
-
-
-    Distance d1(5, 8);
-    Distance d2(5, 8);
-    Distance d3(6, 2);
-
-    cout << "Distance 1: ";
-    d1.display();
-
-    cout << "Distance 2: ";
-    d2.display();
-
-    cout << "Distance 3: ";
-    d3.display();
-
-    cout << "\nComparing d1 and d2: ";
-    if (d1 == d2)
-        cout << "Equal\n";
-    else
-        cout << "Not Equal\n";
-
-    cout << "Comparing d1 and d3: ";
-    if (d1 == d3)
-        cout << "Equal\n";
-    else
-        cout << "Not Equal\n";
-
-   
-
 
     
 
     return 0;
 }
+
 
