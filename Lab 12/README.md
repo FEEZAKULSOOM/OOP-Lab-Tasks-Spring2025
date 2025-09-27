@@ -1,3 +1,4 @@
+
 ### **Task 1: Calculator Template**
 - A **templated calculator class** implemented in `calculator.h`.  
 - Supports:
