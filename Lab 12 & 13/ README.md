@@ -1,4 +1,4 @@
-# C++ Exception Handling 
+# C++ Exception Handling and Templates
 
 This project demonstrates **four tasks** using exception handling, arrays, templates, and modular programming with header files in C++.
 
@@ -16,4 +16,25 @@ This project demonstrates **four tasks** using exception handling, arrays, templ
 - The user enters an index and a value.  
 - If the index is out of range (`<0` or `>=3`), an exception is thrown.  
 - Otherwise, the value is stored and displayed.
+
+
+
+### **Task 3: Calculator Template**
+- A **templated calculator class** implemented in `calculator.h`.  
+- Supports:
+  - Addition  
+  - Subtraction  
+  - Multiplication  
+  - Division (with exception handling for divide-by-zero).  
+- Demonstrates **generic programming** with templates.
+
+### **Task 4: Logger Template**
+- A **templated logger class** implemented in `logger.h`.  
+- Logs messages of any data type to the console.  
+- Used to log exceptions and program events.
+
+---
+
+
+
 
