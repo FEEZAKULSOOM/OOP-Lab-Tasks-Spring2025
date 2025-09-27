@@ -1,4 +1,4 @@
-# C++ Exception Handling & Templates Project
+# C++ Exception Handling 
 
 This project demonstrates **four tasks** using exception handling, arrays, templates, and modular programming with header files in C++.
 
